@@ -1,0 +1,19 @@
+{
+  "name": "osrs",
+  "description": "Old School RuneScape for Claude: the full OSRS wiki, live Grand Exchange prices with history, hiscores, and a money-making scanner, through the public osrs.skunk.to MCP server. No API key.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Danny",
+    "email": "danny@skunk.pet"
+  },
+  "homepage": "https://osrs.skunk.to",
+  "repository": "https://github.com/dannycake/osrs-claude-skills",
+  "license": "MIT",
+  "keywords": ["osrs", "runescape", "old school runescape", "wiki", "grand exchange", "mcp"],
+  "mcpServers": {
+    "osrs-wiki": {
+      "type": "http",
+      "url": "https://osrs.skunk.to/mcp"
+    }
+  }
+}
